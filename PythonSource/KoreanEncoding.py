@@ -14,6 +14,6 @@ try:
     with open(file_path, 'r', encoding=detected_encoding) as f:
         content = f.read()
         print("파일 내용 미리보기:")
-        print(content[:500])  # 처음 500자를 미리 보기로 출력
+        print(content[:500000000])  # 처음 500자를 미리 보기로 출력
 except Exception as e:
     print(f"오류 발생: {e}")
